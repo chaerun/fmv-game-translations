@@ -1,0 +1,170 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "Dialogue_zh"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "zh"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -3149064110605120557
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (18 items)
+   0 int size = 18
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1086357233664
+     1 string m_Localized = "<size=100>To be continued...</size>\n<size=22> </size>\nCongratulations on finishing the demo! Thanks for your continued support of Sweetheart AI Chase. Please take a moment to fill out our demo questionnaire for a chance to win a full game CD-KEY and other awesome rewards!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6472539866763264
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Spicy Coach" Ending</size>\n\n<size=80>“I just love it when you're being serious and strict”</size>\n\n\n<size=36>Who would have thought? I left everything behind and finally ended up with Kiki. The FBP and the AI androids... it's as if none of it ever happened. I'm no longer an FBP agent—you can call me the "Spicy Fitness Pro" now!\n\n<size=22>You have obtained the permanent item:“{0}”\n{1}</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6508624126775296
+     1 string m_Localized = "<size=22>Bad Ending </size>\n<size=60>The "Bloody Loli"</size>\n\n<size=80>“You must press your breast against the thorn and sing to me. Let your life's blood flow into my veins and become my own”</size>\n\n\n<size=36>A dirge from "The Nightingale and the Rose", sung for Nana-chan and me. Was my choice wrong? If I could do it all over again... How would it end then?</size>\n\n"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6520399702364160
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Sweetheart Loli" Ending</size>\n\n<size=80>“From now on, I will be the one to protect you”</size>\n\n\n<size=36>Since then, Lillian has never manifested in Nana-chan again. Perhaps love truly is the best medicine to heal all wounds.\n\n<size=22>\n\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6522494862069760
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Charming Loli" Ending</size>\n\n<size=80>“From now on, I will be the one to protect you.”</size>\n\n\n<size=36>Lillian is Lillian—there was never any "Nana-chan" to begin with. Because I have never been more wide awake than I am right now!\n\n<size=22>You have obtained the permanent item:“{0}”\n{1}</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6531915558260736
+     1 string m_Localized = "<size=22>Bad Ending </size>\n<size=60>The "Total Loser" Ending</size>\n\n<size=80>"Better to lose with honor than to win with dishonor”</size>\n\n\n<size=36>I never, ever expected things to come to this. What I didn't expect... what else is there left?\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6537039076757504
+     1 string m_Localized = "<size=22>Bad Ending </size>\n<size=60>The "Unfinished Journey" Ending</size>\n\n<size=80>“Don't get sloppy at the finish line”</size>\n\n\n<size=36>I failed to identify who the AI android was... in fact, I can't even remember most of what happened. Who am I? Where did I come from? Where am I going?\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6544621220761600
+     1 string m_Localized = "<size=22>Bad Ending </size>\n<size=60>The "Half-Believe" Ending</size>\n\n<size=80>“Neither shall I deceive you, nor you distrust me”</size>\n\n\n<size=36>I chose correctly. But is this the truth?\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6547721302151168
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Trophy Boyfriend" Ending</size>\n\n<size=80>“Sister, I don't want to work hard anymore!”</size>\n\n\n<size=36>Many people don't understand why Jiang Yan chose me.\nJust like they don't understand the other thing—\nWhy I am the only one who truly understands her.\n\n<size=22>You have obtained the permanent item: "{0}"\n{1}</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6550372689481728
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Personal Butler" Ending</size>\n\n<size=80>“Sister, I don't want to work hard anymore!”</size>\n\n\n<size=36>Many people don't understand why Jiang Yan chose me.\nJust like they don't understand the other thing—\nWhy I am the only one who truly understands her.\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6557033575583744
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Dreamy Beach Wedding" Ending</size>\n\n<size=80>“Losing everyone to gain the only one.”</size>\n\n\n<size=36>Only Meng Lu is my true soulmate.\n\n\n<size=22>You have obtained the permanent item: "{0}"\n{1}</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6559900814381056
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Sexy Duo" Ending (Meng Lu)</size>\n\n<size=80>“In this vast world, our paths were bound to cross.”</size>\n\n\n<size=36>When I said "big", I didn't mean it in the way you're thinking.\nI was wondering—if two AIs were to meet,\nwould they recognize each other as machines?\n</size>\n<size=22></size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6564834578370560
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Sexy Duo" Ending (Kiki)</size>\n\n<size=80>“In this vast world, our paths were bound to cross.”</size>\n\n\n<size=36>When I said "big", I didn't mean it in the way you're thinking.\nI was wondering—if two AIs were to meet,\nwould they recognize each other as machines?\n</size>\n<size=22></size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6565507965489152
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Duo Beats the Scumbag" Ending</size>\n\n<size=80>“In this vast world, our paths were bound to cross.”</size>\n\n\n<size=36>When I said "big", I didn't mean it in the way you're thinking.\nI was wondering—if two AIs were to meet,\nwould they recognize each other as machines?\n</size>\n<size=22></size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6568119959916544
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Simple Life" Ending</size>\n\n<size=80>“We have a truly 'electric' connection.”</size>\n\n\n<size=36>I wonder—when mechanical AIs fall in love,\ndo they communicate their feelings through "electricity"?\nSu Xin and I... well, we gave it a try.\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6570944408424448
+     1 string m_Localized = "<size=22>Good Ending </size>\n<size=60>The "Ends of the Earth" Ending</size>\n\n<size=80>“She has gained consciousness, emotion, and creativity.”</size>\n\n\n<size=36>Wan Lin, oh Wan Lin...\nTo the ends of the earth, I will follow you.\n\n<size=22>\n</size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6576322940604416
+     1 string m_Localized = "<size=22>Bad Ending </size>\n<size=60>The "Destroyed Truman" Ending</size>\n\n<size=80>“I regret not choosing kindness.”</size>\n\n\n<size=36>Farewell!\nWan Lin, Su Xin, Meng Lu, Jiang Yan, Nana-chan, Kiki...\nWere you all with me\nonly to destroy me in the end?\n<size=22></size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6585872297070592
+     1 string m_Localized = "<size=22>Final Ending </size>\n<size=60>The Truman Show Ending</size>\n\n<size=80>“Is there anything real left?”</size>\n<size=40>“Was anything real？”</size>\n\n\n<size=36>Quoted from <i>The Truman Show</i>\nFrom <i>The Truman Show</i>\n<size=22></size>\n </size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0

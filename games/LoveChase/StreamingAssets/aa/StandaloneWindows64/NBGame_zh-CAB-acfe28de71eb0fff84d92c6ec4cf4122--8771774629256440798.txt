@@ -1,0 +1,578 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "NBGame_zh"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "zh"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 1747524427982315300
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (69 items)
+   0 int size = 69
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3247579658706944
+     1 string m_Localized = "Day {0}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695638001147904
+     1 string m_Localized = "<size=30>Nana-chan</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695620007583744
+     1 string m_Localized = "<size=30>Meng Lu</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695605453348864
+     1 string m_Localized = "<size=30>Su Xin</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695589720514560
+     1 string m_Localized = "<size=30>Wan Lin</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695558523281408
+     1 string m_Localized = "<size=30>Kiki</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695525388279808
+     1 string m_Localized = "<size=30>Jiang Yan</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29707771237621760
+     1 string m_Localized = "Affection"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29707786014154752
+     1 string m_Localized = "Suspicion"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 32282501790556160
+     1 string m_Localized = "All Heroines"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38416673106026496
+     1 string m_Localized = "Old Gong"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38735776144416768
+     1 string m_Localized = "Meng Lu's Agent"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38735869186662400
+     1 string m_Localized = "Group Chat"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 40263213672030208
+     1 string m_Localized = "Headquarters"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487811150536704
+     1 string m_Localized = "<size=6>Stranger</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487884592799744
+     1 string m_Localized = "<size=8>Friend</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487903609774080
+     1 string m_Localized = "<size=8>Like</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487934601486336
+     1 string m_Localized = "<size=8>Partner</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487946286817280
+     1 string m_Localized = "<size=8>Low</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487960597782528
+     1 string m_Localized = "<size=8>Mid</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487972253753344
+     1 string m_Localized = "<size=8>High</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43488201732513792
+     1 string m_Localized = "<size=8>Love</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887472331972608
+     1 string m_Localized = "<size=12>Stranger</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887666683437056
+     1 string m_Localized = "<size=14>Friend</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887753371312128
+     1 string m_Localized = "<size=14>Like</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887810514509824
+     1 string m_Localized = "<size=14>Partner</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887874670583808
+     1 string m_Localized = "<size=14>Love</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887916018032640
+     1 string m_Localized = "<size=14>Low</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887965817004032
+     1 string m_Localized = "<size=14>Mid</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887990915719168
+     1 string m_Localized = "<size=14>High</size>"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227643814830080
+     1 string m_Localized = "Boxing Gloves"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227654531276800
+     1 string m_Localized = "X-ray Glasses"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227668150181888
+     1 string m_Localized = "FBP Chip 2.0"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227678665302016
+     1 string m_Localized = "Mermaid's Kiss"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228037152464896
+     1 string m_Localized = "During subsequent playthroughs, when a heroine's Suspicion increases, it gains an additional +1."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228079334580224
+     1 string m_Localized = "During subsequent playthroughs, you can detect the current heroine's thoughts"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228112243089408
+     1 string m_Localized = "During subsequent playthroughs, changes to heroine stats are doubled."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228145671692288
+     1 string m_Localized = "During subsequent playthroughs, when a heroine's Affection increases, it gains an additional +1."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780633417342976
+     1 string m_Localized = "Long jet-black hair, tall with long legs and sharp curves. Switches between sexy black stockings and cold business suits, full of contrast and mature authority. Classic oval face, defined jawline, flawless profile."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780686194270208
+     1 string m_Localized = "Decisive and fast-moving, words matching actions. Strong need for control and security. Bold, impulsive, hot-tempered but quick to cool, never holds grudges. Highly efficient and hates wasting time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780703554494464
+     1 string m_Localized = "Fully devoted to entrepreneurship, mastering everything from networking to budgets. Has her own management logic. Enjoys spending on herself and others. Likes innocent men and carefree yet challenging relationships. Drinks lightly when stressed."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780753215053824
+     1 string m_Localized = "Split from her fiancé over clashing business ideals. Still entangled due to profit-driven business ties. Families expect marriage, but both see it as work only. Her ad agency thrives; work is her life."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780780146679808
+     1 string m_Localized = "Returned from overseas and joined Xingmei directly. Family lives abroad; social circle is minimal. Sleeps only three hours a day, almost always online, highly driven and dedicated to the company's future."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781296528416768
+     1 string m_Localized = "Fit, toned body with fair skin. Light, slightly wavy hair and a unique presence. Prefers sporty, minimalist outfits, giving her a natural, healthy, energetic look."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781349208875008
+     1 string m_Localized = "Warm, cheerful, carefree, and full of energy. Always smiling and easy to be around. Strong sense of justice and quick to help others. Forgets troubles easily—known as a “happy puppy”."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781371950391296
+     1 string m_Localized = "Disciplined life with a love for adventure: hiking, climbing, bungee jumping. Extremely fit, taekwondo black belt. A star gym trainer with youthful energy. Believes in self-reliance and dreams of world travel."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781394884845568
+     1 string m_Localized = "Once mocked for her weight, she reshaped herself over two years into a flawless figure. Obsessive about body management, counting every calorie. Even now, she never allows indulgence."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781415596318720
+     1 string m_Localized = "No records of her before the gym. In one month, she achieved what others take a quarter to do. Her rapid success makes her background suspicious."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781494147244032
+     1 string m_Localized = "Captivating curves, full bust, strong maternal aura. Smooth skin and classic Eastern physique. Her charm feels constant and impossible to ignore."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781549264592896
+     1 string m_Localized = "Kind, gentle, and never petty. Calm, understanding, and easygoing. Internally peaceful yet strongly driven toward her goals."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781634270552064
+     1 string m_Localized = "Runs a small restaurant with exceptional cooking skills. Loves innovation, masters housework, and cares deeply about life's details. Every dish and moment feels warm and heartfelt."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781649730756608
+     1 string m_Localized = "From a working-class family, once married to a gambling addict who left deep scars. Closely bonded with her younger brother. These hardships made her resilient and family-oriented."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781678692425728
+     1 string m_Localized = "Almost impossible to anger and overly tolerant. Her kindness feels beyond normal limits. Sometimes naive, with a disconnect between her age and mindset."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781715409362944
+     1 string m_Localized = "Long hair and gold-rimmed glasses. Rare smile but stunning when it appears. Striking legs and a strong presence. As a doctor in a white coat, she radiates intellectual beauty."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781812717215744
+     1 string m_Localized = "Cold, restrained, and intelligence-driven. Calm inner world, blocks out noise. Speaks directly, highly responsible, and mildly obsessive about cleanliness. Home is always spotless."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781848603680768
+     1 string m_Localized = "Deeply focused on medical research, now exploring AI and neuroscience. Dislikes meaningless socializing. Purpose-driven, highly logical, and intolerant of stupidity"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781912738783232
+     1 string m_Localized = "Highly educated neurosurgeon. Career-focused, no interest in romance—rumored lifelong single. Lives a routine life, often immersed in books at the library."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781939045457920
+     1 string m_Localized = "Her close ties to AI research raise suspicion. Mysterious and hard to read. Rumored past accident left her deeply afraid of suffocation and water."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781968019709952
+     1 string m_Localized = "Seductive, fox-like face with expressive eyes. As a swimsuit model, her flawless figure defines her. Slender waist and fluid softness spark endless imagination."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782032159006720
+     1 string m_Localized = "Emotionally intelligent and socially skilled, especially with men. Creates irresistible push-and-pull intimacy. Warm exterior, guarded heart, rarely reveals her true feelings."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782136735588352
+     1 string m_Localized = "Quiet one moment, wild the next. Deeply understands men—a true heartbreaker. Meng Lu has countless sides, able to become whatever you desire. Treats romance as a game."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782173465108480
+     1 string m_Localized = "Famous model. Betrayed at sixteen, explicit photos leaked, forcing her to drop out and fall into depression. Later rose through the world of men to become a top swimsuit model."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782200811970560
+     1 string m_Localized = "Never eats in public and calculates calories by sight. Extreme body control governs every bite. Her discipline exceeds normal human limits."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782227735207936
+     1 string m_Localized = "Big-eyed, cute girl with bangs and baby-soft skin. Round face, rosy cheeks, and constant lolita dresses. A textbook anime-style shōjo."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782304767795200
+     1 string m_Localized = "Crybaby with an emo nature. Sweet and gentle at times, dark and strange at others. Too trusting, easily deceived, and lacking security."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782337848270848
+     1 string m_Localized = "Love-brained and fully devoted once in love. Constant emotional ups and downs. Loves surprises and rituals. Small tantrums, easily soothed."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782398418214912
+     1 string m_Localized = "Orphan raised without friends, often isolated. Childhood insecurity led to hoarding and collecting habits. Her home is filled with dolls to fill the void."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782424448065536
+     1 string m_Localized = "Exceptionally skilled at popping dance, movements almost inhuman. Has a habit of disguising herself as a doll. Social records are clearly concealed."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55871790579179520
+     1 string m_Localized = "Explore the onstage and behind-the-scenes stories of six girls. Compare their personalities, backgrounds, traits, and suspicions to uncover contrasts and similarities with their roles."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0

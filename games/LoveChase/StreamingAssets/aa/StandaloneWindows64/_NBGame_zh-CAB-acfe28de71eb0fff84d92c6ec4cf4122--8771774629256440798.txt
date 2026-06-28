@@ -1,0 +1,578 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "NBGame_zh"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "zh"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 1747524427982315300
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (69 items)
+   0 int size = 69
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3247579658706944
+     1 string m_Localized = "第{0}天"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695638001147904
+     1 string m_Localized = "娜娜酱"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695620007583744
+     1 string m_Localized = "梦露"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695605453348864
+     1 string m_Localized = "苏心"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695589720514560
+     1 string m_Localized = "婉琳"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695558523281408
+     1 string m_Localized = "Kiki"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29695525388279808
+     1 string m_Localized = "姜言"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29707771237621760
+     1 string m_Localized = "亲密度"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 29707786014154752
+     1 string m_Localized = "怀疑度"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 32282501790556160
+     1 string m_Localized = "所有女主"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38416673106026496
+     1 string m_Localized = "老龚"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38735776144416768
+     1 string m_Localized = "梦露经纪人"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 38735869186662400
+     1 string m_Localized = "群聊"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 40263213672030208
+     1 string m_Localized = "总部"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487811150536704
+     1 string m_Localized = "陌"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487884592799744
+     1 string m_Localized = "友"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487903609774080
+     1 string m_Localized = "慕"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487934601486336
+     1 string m_Localized = "爱"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487946286817280
+     1 string m_Localized = "弱"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487960597782528
+     1 string m_Localized = "中"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43487972253753344
+     1 string m_Localized = "强"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43488201732513792
+     1 string m_Localized = "恋"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887472331972608
+     1 string m_Localized = "陌生"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887666683437056
+     1 string m_Localized = "朋友"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887753371312128
+     1 string m_Localized = "倾慕"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887810514509824
+     1 string m_Localized = "恋人"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887874670583808
+     1 string m_Localized = "爱人"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887916018032640
+     1 string m_Localized = "弱"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887965817004032
+     1 string m_Localized = "中"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 43887990915719168
+     1 string m_Localized = "强"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227643814830080
+     1 string m_Localized = "拳击手套"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227654531276800
+     1 string m_Localized = "透视眼镜"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227668150181888
+     1 string m_Localized = "FBP芯片2.0"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48227678665302016
+     1 string m_Localized = "美人鱼之吻"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228037152464896
+     1 string m_Localized = "当进行多周目游戏时，女主怀疑值增加时会有额外+1效果。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228079334580224
+     1 string m_Localized = "当进行多周目游戏时，可以侦测当前女主的想法。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228112243089408
+     1 string m_Localized = "当进行多周目游戏时，女主数值变化时会有翻倍效果。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 48228145671692288
+     1 string m_Localized = "当进行多周目游戏时，女主好感度增加时会有额外+1效果。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780633417342976
+     1 string m_Localized = "一头乌黑的长发，身材高挑，大长腿，身材曲线明显，时而穿着性感黑丝，时而穿着高冷西装套装，反差感拉满，极具成熟女强人的魅力。脸型是典型的瓜子脸，有明显的下颚弧线，侧脸非常完美。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780686194270208
+     1 string m_Localized = "果断且雷厉风行，言行一致，对任何事情都有有强烈的控制欲，喜欢一切尽在掌控的安全感。张扬，冲动，脾气大，但消气也很快，不记仇，非常直爽。拥有强烈的决断力，不喜欢浪费时间。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780703554494464
+     1 string m_Localized = "全身心投入创业，无论是社交还是预算，一切事务了如指掌。拥有独特的管理方法和行事逻辑。喜欢为自己和他人花钱。喜欢天真的男性，享受无负担，有挑战的恋爱。压力大时喜欢喝点小酒。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780753215053824
+     1 string m_Localized = "因创业理念不合与未婚夫分道扬镳，虽有生意往来，但对方为了利益而纠缠。双方家庭期待婚事，但看待彼此仅为工作关系，对婚事无兴趣。广告公司运营状况良好，工作成为生活重心，每日充满活力。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55780780146679808
+     1 string m_Localized = "海外留学回归，空降星美，家人都在远离故土的国外，国内社交关系清晰简洁。每天仅需短短三小时的睡眠，几乎全天在线，对工作充满热情和投入，不断提升自我，为公司的前进方向贡献力量。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781296528416768
+     1 string m_Localized = "具有健康紧致的身材，皮肤白皙。头发微卷，呈浅色，展现出独特的气质。偏好运动风格，简洁的装扮和饰品，不喜欢过于繁复的服装和首饰。这种简洁的风格，使得整个人看起来更加自然，更加健康活力。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781349208875008
+     1 string m_Localized = "性格热情开朗，阳光大方，大大咧咧，元气十足，活泼爱笑，待人接物如沐春风。正义感极强，经常路见不平出手相助，遇到烦心事很容易忘记，快乐小狗是朋友对她的评价。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781371950391296
+     1 string m_Localized = "生活自律，工作之余丰富多彩。热衷于徒步、攀岩、蹦极等探险活动，体力值爆表，曾获跆拳道黑带。以出色身材和青春活力成为健身房的明星教练，吸引众多健身爱好者。信奉自力更生，梦想是环游世界。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781394884845568
+     1 string m_Localized = "曾因体重受到嘲笑，大学时发愤塑身，用两年时间塑造完美身材，从被嫌弃到万人迷。对身材管理有近乎偏执的追求，每餐精确计算卡路里。即使现在身材已完美，也不允许自己放纵。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781415596318720
+     1 string m_Localized = "目前还没有发现她健身房之前的照片，在健身房工作时只用了一个月的时间，就实现了其他健身教练一个季度的业绩。成功来的太快，许多背景也需要仔细揣摩。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781494147244032
+     1 string m_Localized = "引人入胜的身形曲线，饱满的胸部，强烈的母性气质，皮肤极其细腻，典型的东方人身材。充满了吸引力，就像一种无形的力量，无时无刻不在散发着难以忽视的魅力。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781549264592896
+     1 string m_Localized = "为人心地善良，从来不斤斤计较，特别的温柔，对待任何人都没有坏脾气。善解人意，包容，非常好相处。内心平静，对于自己的追求有着强烈的进取心。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781634270552064
+     1 string m_Localized = "经营一家小餐馆，烹饪技术出众，热衷于创新菜式，精通家务，生活细节无一遗漏。这种热情和专业，使得每一道菜都充满了独特的魅力，每一个生活细节都充满了温馨的情感。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781649730756608
+     1 string m_Localized = "出身于普通工薪家庭，曾有一段婚姻，但前夫赌性极强，常向其索取金钱，成为了内心的痛点。有一个弟弟，两人相依为命，关系紧密无间。这些经历使其更加坚韧，更加珍视亲情，也更加明白生活的不易。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781678692425728
+     1 string m_Localized = "怎么惹都不生气，对其他人过于包容，表现出超出平凡人的气度。过于善良，年龄和处事风格有割裂感。有时候想法太过天真，看起来过于不切实际。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781715409362944
+     1 string m_Localized = "拥有长发和金丝眼镜的形象，笑容虽然罕见，但一旦绽放，无比动人。 拥有一双迷人双腿，很难让人不注意到这一点。作为医生，工作时总是穿着白大褂，但无时无刻不散发出一种知性的美丽。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781812717215744
+     1 string m_Localized = "高冷，典型的禁欲系，智性恋。拥有极其平静的内心世界，能够自动外界噪音。说话不喜欢拐弯抹角，无论是工作还是生活，其责任心都极强。有一定的洁癖，家里永远是干净整洁的。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781848603680768
+     1 string m_Localized = "热衷于自己医学领域的研究，最近似乎在研究人工智能和脑科学领域的知识。不喜欢无聊的社交，做事有目的，厌蠢。能够与人深度沟通，逻辑性极强。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781912738783232
+     1 string m_Localized = "高学历医科毕业，现在任职于某医院的脑外科大夫，因为学业事业忙碌，无心顾及恋爱问题，据说是母胎单身。生活较为固定，常常去图书馆浸泡在知识的海洋中。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781939045457920
+     1 string m_Localized = "目前研究领域和 AI 的关系过于密切，很难不让人起疑。有时候行事让人觉得非常神秘，难以琢磨。据说以前出过事故，对闭气和水有极强的恐惧感。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55781968019709952
+     1 string m_Localized = "拥有一张狐媚的脸庞，灵性的媚眼仿佛能说话，一眼就能令人魂牵梦绕。作为泳装模特，完美傲人的身材是其独特的名片。细腰如柳，柔软似水，引人无限遐想。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782032159006720
+     1 string m_Localized = "高情商，擅长社交，尤其与男性相处，仿佛沐浴春风，细心倾听，巧妙回应。然而，当亲密时，又能保持适当距离，若即若离，令人欲罢不能。外表热情，内心却封闭，不轻易吐露心声，神秘感十足。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782136735588352
+     1 string m_Localized = "静若处子，动若疯兔。性格多面丰富，十分了解男人，是真正的男人杀手。也许千人千面，但梦露有多少面，谁也不知道，因为你想要的样子她全有。对于恋爱就是游乐人间的心态。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782173465108480
+     1 string m_Localized = "知名模特。16岁初恋，被男友背叛，裸照外泄，校园震动，无辜的她选择退学，一度闭门不出，抑郁症缠身。但突然有一天她游走于男人的世界，利用他们为自己迅速赢得声望，成为泳装模特的翘楚。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782200811970560
+     1 string m_Localized = "不在人前就餐，肉眼计算卡路里，对身材的严格把控，每一口食物的摄入都经过精确计算，无论何时何地，都不会违背这个原则。这种自律和其性格形成强烈的反差，超出了正常人类的极限。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782227735207936
+     1 string m_Localized = "大眼萌妹，齐刘海，皮肤白皙，婴儿肌，小巧的鼻子和嘴唇，脸圆圆的，脸颊和鼻头总是红扑扑，让人有保护欲望，常年身着萝莉裙。刻板印象中最为典型的二次元少女。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782304767795200
+     1 string m_Localized = "爱哭鬼，emo体质。时而温柔甜美，顺从可爱，情感细腻。时而行事诡异，暗黑风格，让人琢磨不透。太容易相信别人，容易被人骗，缺乏安全感。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782337848270848
+     1 string m_Localized = "恋爱脑，一旦坠入爱河，就会全心全意投入，围绕着爱情转圈圈，但患得患失的痛苦似乎是她的常态。喜欢惊喜和仪式感，小事能触动情绪，偶尔会有小脾气，但一哄就会恢复如初。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782398418214912
+     1 string m_Localized = "孤儿，从小在孤儿院长大，没有朋友，时常被孤立。童年的安全感缺失，导致长大后形成了囤积癖和收集癖和仓鼠属性，家中摆满了各种娃娃来满足童年不可得之物。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55782424448065536
+     1 string m_Localized = "非常擅长机械舞，舞步精准而富有节奏感，对人类来说，似乎越界了。有伪装成娃娃的癖好。资料中缺乏社会关系，但显然是因为某些原因而被隐瞒 了。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 55871790579179520
+     1 string m_Localized = "在这里你可以探索六位女孩的台前幕后的故事，通过她们在游戏中的形象、性格、特质、背景以及疑点等特征并结合下面的拍摄花絮，你可以探寻她们和角色之间的反差，亦或共通之处。"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0
