@@ -12,7 +12,7 @@ A community-driven for custom translation patches and subtitle modifications for
 
 - **Target Language:** English
 - **Status:** Done
-- **Last Update**: 2026-06-19
+- **Latest Release**: [![Love Chase Latest][lc-release-badge]][lc-release-url]
 
 #### Credits
 
@@ -52,3 +52,5 @@ This is a non-commercial, community-led fan translation project. This repository
 [BBNO$]: https://discord.com/users/840349143246438450
 [discord-discussion-logo]: https://img.shields.io/badge/Discord-Join%20the%20Discussion-7289da?logo=discord&logoColor=white
 [discord-fmv-heaven]: https://discord.gg/d48czN5Htp
+[lc-release-badge]: https://img.shields.io/github/v/tag/chaerun/fmv-game-translations?filter=love-chase/*&label=version
+[lc-release-url]: https://github.com/chaerun/fmv-game-translations/releases?q=love-chase

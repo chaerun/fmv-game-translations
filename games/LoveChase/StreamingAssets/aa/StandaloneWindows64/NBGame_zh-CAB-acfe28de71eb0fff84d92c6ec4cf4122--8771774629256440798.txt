@@ -30,7 +30,7 @@
    [1]
     0 TableEntryData data
      0 SInt64 m_Id = 29695638001147904
-     1 string m_Localized = "<size=30>Nana-chan</size>"
+     1 string m_Localized = "<size=33>Nana-chan</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -38,7 +38,7 @@
    [2]
     0 TableEntryData data
      0 SInt64 m_Id = 29695620007583744
-     1 string m_Localized = "<size=30>Meng Lu</size>"
+     1 string m_Localized = "<size=33>Meng Lu</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -46,7 +46,7 @@
    [3]
     0 TableEntryData data
      0 SInt64 m_Id = 29695605453348864
-     1 string m_Localized = "<size=30>Su Xin</size>"
+     1 string m_Localized = "<size=33>Su Xin</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -54,7 +54,7 @@
    [4]
     0 TableEntryData data
      0 SInt64 m_Id = 29695589720514560
-     1 string m_Localized = "<size=30>Wan Lin</size>"
+     1 string m_Localized = "<size=33>Wan Lin</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -62,7 +62,7 @@
    [5]
     0 TableEntryData data
      0 SInt64 m_Id = 29695558523281408
-     1 string m_Localized = "<size=30>Kiki</size>"
+     1 string m_Localized = "<size=33>Kiki</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -70,7 +70,7 @@
    [6]
     0 TableEntryData data
      0 SInt64 m_Id = 29695525388279808
-     1 string m_Localized = "<size=30>Jiang Yan</size>"
+     1 string m_Localized = "<size=33>Jiang Yan</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -78,7 +78,7 @@
    [7]
     0 TableEntryData data
      0 SInt64 m_Id = 29707771237621760
-     1 string m_Localized = "Affection"
+     1 string m_Localized = "<size=33> Affection</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
@@ -86,7 +86,7 @@
    [8]
     0 TableEntryData data
      0 SInt64 m_Id = 29707786014154752
-     1 string m_Localized = "Suspicion"
+     1 string m_Localized = "<size=33> Suspicion</size>"
      0 MetadataCollection m_Metadata
       0 IMetadata m_Items
        0 Array Array (0 items)
