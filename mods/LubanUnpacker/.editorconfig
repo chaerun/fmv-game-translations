@@ -1,0 +1,25 @@
+root = true
+
+[*.cs]
+# Core Formatting
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# C# Formatting: Allman style braces (standard C#)
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+
+# Linting Rules: Enforce naming styles (e.g., interfaces must start with 'I')
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = warning
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+
+dotnet_naming_symbols.interface.applicable_kinds = interface
+dotnet_naming_style.begins_with_i.required_prefix = I
+dotnet_naming_style.begins_with_i.capitalization = pascal_case

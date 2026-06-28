@@ -1,0 +1,67 @@
+# ==========================================
+# .NET / C#
+# ==========================================
+# Build and release folders
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# User-specific files (Visual Studio)
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/*
+# DO NOT ignore these shared settings (Keep them in source control)
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# ==========================================
+# OS / Environment
+# ==========================================
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# Project
+# ==========================================
+Input/
+Models/Generated/
+Output/
