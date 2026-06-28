@@ -1,0 +1,59 @@
+name: Build and Release Love Chase
+
+on:
+  push:
+    tags:
+      - "love-chase/v*"
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v6
+
+      - name: Prepare Release Structure
+        run: |
+          mkdir -p "release_build/Love Chase_Data"
+
+          # 1. Sync game files, but EXCLUDE the README.md so it doesn't get buried
+          rsync -av --exclude='_*' --exclude='*CAB*.txt' --exclude='README.md' "games/LoveChase/" "release_build/Love Chase_Data/"
+
+          # 2. Copy the README.md directly to the build root so it sits next to Love Chase_Data
+          cp "games/LoveChase/README.md" "release_build/README.md"
+
+      - name: Create Zip Archive
+        run: |
+          cd release_build
+
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            VERSION=${GITHUB_REF_NAME#love-chase/v}
+          else
+            VERSION="latest"
+          fi
+
+          ZIP_NAME="love-chase-en-${VERSION}.zip"
+
+          # 3. Zip both the data folder AND the README file
+          zip -r "$ZIP_NAME" "Love Chase_Data" "README.md"
+
+          # Save variables to the environment for the next step
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Extract Release Notes from CHANGELOG
+        run: |
+          # This looks for "## [love-chase/v1.1.0]", starts copying, and stops at the next "## ["
+          awk '/^## \['"${GITHUB_REF_NAME}"'\]/ {flag=1; next} /^## \[/ && flag {flag=0; exit} flag {print}' CHANGELOG.md > release_notes.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v3
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: release_build/${{ env.ZIP_NAME }}
+          body_path: release_notes.md
+          name: Love Chase ${{ env.VERSION }}
