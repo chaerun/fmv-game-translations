@@ -48,7 +48,7 @@ jobs:
       - name: Extract Release Notes from CHANGELOG
         run: |
           # This looks for "## [love-chase/v1.1.0]", starts copying, and stops at the next "## ["
-          awk '/^## \['"${GITHUB_REF_NAME}"'\]/ {flag=1; next} /^## \[/ && flag {flag=0; exit} flag {print}' CHANGELOG.md > release_notes.md
+          awk -v target="## [${GITHUB_REF_NAME}]" 'index($0, target) == 1 {flag=1; next} /^## \[/ && flag {flag=0; exit} flag {print}' CHANGELOG.md > release_notes.md
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
