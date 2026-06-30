@@ -12,15 +12,61 @@ namespace LubanUnpacker
         static readonly Dictionary<string, Type> FileClassRegistry = new(StringComparer.OrdinalIgnoreCase)
         {
             { "tbachievement", typeof(cfg.achievement) },
+            { "tbactions", typeof(cfg.action) },
+            { "tbaudioclip", typeof(cfg.audioClip) },
+            { "tbbackgroundaudios", typeof(cfg.backgroundAudio) },
+            { "tbcarchatcontent", typeof(cfg.carChatContent) },
+            { "tbcards", typeof(cfg.card) },
             { "tbchaptercontent", typeof(cfg.chapterContent) },
             { "tbchapterend", typeof(cfg.chapterEnd) },
+            { "tbchapterexplored", typeof(cfg.chapterExplored) },
+            { "tbcharacterarchives", typeof(cfg.characterArchives) },
+            { "tbcondition", typeof(cfg.condition) },
+            { "tbcorrectdata", typeof(cfg.correctData) },
+            { "tbcustomrewired", typeof(cfg.customRewired) },
+            { "tbdatasettlement", typeof(cfg.dataSettlement) },
+            { "tbdefaultdata", typeof(cfg.defaultData) },
+            { "tbevents", typeof(cfg.customEvent) },
+            { "tbfantasy", typeof(cfg.fantasy) },
+            { "tbgamesetting", typeof(cfg.gameSetting) },
+            { "tbguidebook", typeof(cfg.guideBook) },
+            { "tbheart", typeof(cfg.heart) },
             { "tbhovertip", typeof(cfg.hoverTip) },
+            { "tbinventory", typeof(cfg.inventory) },
+            { "tblogic", typeof(cfg.logic) },
+            { "tbminigames", typeof(cfg.miniGame) },
+            { "tbmultiplechoiseaction", typeof(cfg.multipleChoiseAction) },
+            { "tbnotebookaudio", typeof(cfg.noteBookAudio) },
             { "tboptionscontent", typeof(cfg.optionContent) },
+            { "tbpanoramic", typeof(cfg.panoramic) },
+            { "tbphone", typeof(cfg.phone) },
+            { "tbphotogame", typeof(cfg.photogame) },
+            { "tbphotograph", typeof(cfg.photograph) },
+            { "tbquestionanswer", typeof(cfg.questionAnswer) },
+            { "tbquestionbank", typeof(cfg.question) },
+            { "tbranking", typeof(cfg.ranking) },
+            { "tbrewiredlinkdata", typeof(cfg.customRewiredLinkData) },
+            { "tbrole", typeof(cfg.role) },
+            { "tbruleinfo", typeof(cfg.ruleInfo) },
+            { "tbscene", typeof(cfg.scene) },
+            { "tbshortcutkey", typeof(cfg.shortcutKey) },
+            { "tbsoundeffect", typeof(cfg.soundEffect) },
+            { "tbstorylineline", typeof(cfg.storylineLineData) },
+            { "tbstorylinenode", typeof(cfg.storylineNodeData) },
             { "tbtips", typeof(cfg.tipContent) },
+            { "tbuiform", typeof(cfg.uiForm) },
+            { "tbuiimagelanguage", typeof(cfg.uiImageLanguage) },
             { "tbuitextlanguage", typeof(cfg.uiTextLanguage) },
+            { "tbunlockvideo", typeof(cfg.unlockVideo) },
+            { "tbvideoplaying", typeof(cfg.videoPlaying) },
             { "tbwechatcontent", typeof(cfg.weChatContent) },
+            { "tbwechatlist", typeof(cfg.weChatList) },
+            { "tbwordsgame", typeof(cfg.wordsGame) },
+            { "tbxbspace", typeof(cfg.xbSpaceLine) },
+            { "tbxt_daijia", typeof(cfg.xt_DaiJia) },
             { "tbxt_dangan", typeof(cfg.xt_DangAn) },
-            { "tbxt_jishi", typeof(cfg.xt_JiShi) }
+            { "tbxt_jishi", typeof(cfg.xt_JiShi) },
+            { "tbxt_zhidao", typeof(cfg.xt_ZhiDao) }
         };
 
         static void Main(string[] args)
@@ -94,7 +140,7 @@ namespace LubanUnpacker
             }
 
             string json = JsonConvert.SerializeObject(extractedData, Formatting.Indented);
-            string outputPath = Path.Combine("Output", $"{fileName}_extracted.json");
+            string outputPath = Path.Combine("Output", $"{fileName}.json");
             File.WriteAllText(outputPath, json);
 
             Console.WriteLine($"[SUCCESS] Unpacked {fileName}.bytes");
@@ -102,7 +148,7 @@ namespace LubanUnpacker
 
         static void Repack()
         {
-            string[] jsonFiles = Directory.GetFiles("Output", "*_extracted.json");
+            string[] jsonFiles = Directory.GetFiles("Output", "*.json");
             if (jsonFiles.Length == 0)
             {
                 Console.WriteLine("No .json files found in Output folder!");
@@ -111,7 +157,7 @@ namespace LubanUnpacker
 
             foreach (string jsonPath in jsonFiles)
             {
-                string fileName = Path.GetFileNameWithoutExtension(jsonPath).Replace("_extracted", "");
+                string fileName = Path.GetFileNameWithoutExtension(jsonPath);
                 if (FileClassRegistry.TryGetValue(fileName, out Type? classType) && classType != null)
                 {
                     string modelClassName = $"LubanUnpacker.Models.{classType.Name}";
@@ -122,7 +168,7 @@ namespace LubanUnpacker
                         if (method != null)
                         {
                             MethodInfo genericMethod = method.MakeGenericMethod(modelType);
-                            genericMethod.Invoke(null, new object[] { jsonPath, modelType, fileName });
+                            genericMethod.Invoke(null, [jsonPath, modelType, fileName]);
                         }
                     }
                     else
@@ -165,7 +211,7 @@ namespace LubanUnpacker
                     row.Serialize(buf);
                 }
 
-                string outputPath = Path.Combine("Output", $"{fileName}_NEW.bytes");
+                string outputPath = Path.Combine("Output", $"{fileName}.bytes");
                 File.WriteAllBytes(outputPath, buf.CopyData());
 
                 Console.WriteLine($"[SUCCESS] Repacked {fileName}.bytes");

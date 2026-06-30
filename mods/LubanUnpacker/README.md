@@ -42,7 +42,7 @@ Before you can build or run this tool, you need to set up your environment.
 Before using the tool, ensure your workspace is set up correctly:
 
 * **`Input/`** - Drop your original, unmodified `.bytes` files here.
-* **`Output/`** - Your unpacked `.json` files and your repacked `_NEW.bytes` files will appear here.
+* **`Output/`** - Your unpacked `.json` files and your repacked `.bytes` files will appear here.
 * **`Models/Generated`** - Contains the generated C# class definitions (blueprints) for each game file.
 * **`Utils/`** - Contains the Generator engine and other helper scripts.
 
@@ -94,16 +94,16 @@ Use this option to extract the binary data into an editable format.
 
 1. Place your target `.bytes` files (e.g., `tboptionscontent.bytes`) into the `Input/` folder.
 2. Run the tool and select **Option 2 (Unpack)**.
-3. The tool will read all registered files in the `Input/` folder and generate editable JSON files (e.g., `tboptionscontent_extracted.json`) in the `Output/` folder.
+3. The tool will read all registered files in the `Input/` folder and generate editable JSON files (e.g., `tboptionscontent.json`) in the `Output/` folder.
 
 #### **Option 3:** Repack All (.json -> .bytes)
 
 Use this option to inject your modifications back into the game.
 
-1. Open the `_extracted.json` files in the `Output/` folder and make your modded changes.
+1. Open the `.json` files in the `Output/` folder and make your modded changes.
 2. Run the tool and select **Option 3 (Repack)**.
-3. The tool will read your modified JSON data and generate a game-ready binary file (e.g., `tboptionscontent_NEW.bytes`) in the `Output/` folder.
-4. Rename the file (remove the `_NEW` tag) and place it in your game's data directory to test your mod!
+3. The tool will read your modified JSON data and generate a game-ready binary file (e.g., `tboptionscontent.bytes`) in the `Output/` folder.
+4. Copy the file to your game's data directory to test your mod!
 
 ---
 
